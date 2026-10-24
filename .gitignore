@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploaded files and vector database (generated at runtime)
+data/*
+!data/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
